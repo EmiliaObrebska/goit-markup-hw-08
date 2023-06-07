@@ -1,0 +1,31 @@
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  color: var(--dark-color);
+  background: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.section {
+  width: 100%;
+  padding-top: 47px;
+  padding-bottom: 47px;
+}
+
+:root {
+  --color-primary: #212121;
+  --color-active: #2196f3;
+  --color-text: #757575;
+  --color-background: #e5e5e5;
+  --color-background-team: #f5f4fa;
+}
