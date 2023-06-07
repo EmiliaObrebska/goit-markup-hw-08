@@ -23,9 +23,17 @@ body {
 }
 
 :root {
-  --color-primary: #212121;
-  --color-active: #2196f3;
+  --color-dark: #212121;
+  --color-primary: #2196f3;
   --color-text: #757575;
-  --color-background: #e5e5e5;
-  --color-background-team: #f5f4fa;
+  --color-light: #e5e5e5;
+  --color-secondary-background: #f5f4fa;
+  --color-icon: #AFB1B8;
+  --color-dark-backgorund: #2F303A;
 }
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
