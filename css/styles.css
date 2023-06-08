@@ -28,12 +28,11 @@ body {
   --color-text: #757575;
   --color-light: #e5e5e5;
   --color-secondary-background: #f5f4fa;
-  --color-icon: #AFB1B8;
-  --color-dark-backgorund: #2F303A;
+  --color-icon: #afb1b8;
+  --color-dark-backgorund: #2f303a;
 }
 
 .container {
   width: 1200px;
   margin: 0 auto;
 }
-
