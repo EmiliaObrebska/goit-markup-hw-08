@@ -17,37 +17,56 @@
      
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&display=swap" 
-    rel="stylesheet">
-    
-
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  
+  
       <link rel="stylesheet" href="./css/styles.css"/>
 
   </head>
 
   <body>
-    <header>
-      <nav class="menu-nav-container">
-        <menu > 
-          <div class="top-line">
-           <ul class="menu-nav-list ul-list-style list-style">
-            <li> <a class="logo" href="./index.html"><span class="web-studio1">Web</span><span class="web-studio2">Studio<span/a></span></li>
-          
-            <li> <a class="menu-nav-agency web-studio-link1 link-header-footer" href="index.html">Agencja</a></li>
-            <li> <a class="menu-nav-portfolio web-studio-link23 link-header-footer " href="portfolio.html">Portfolio</a></li>
-            <li> <a class="menu-nav-contact web-studio-link23 link-header-footer" href="#">Kontakt</a></li>
-        
-
-            <li> <a class="menu-nav-mail link-header-footer" href="mailto: info@devstudio.com"
-            >info@devstudio.com</a> </li>
-
-            <li><a class="menu-nav-phone link-header-footer" href="tel:+48 111 111 111"
-              >+48 111 111 111</a> </li>
+      <header class="header">
+        <div class="container header__container">
+          <div class="header__left-side">
+            <a href="./index.html" class="header__logo logo">
+              <span class="logo__styles">Web</span>Studio
+            </a>
+  
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__list-item">
+                  <a href="./index.html" class="nav__link">Agencja</a>
+                </li>
+                <li class="nav__list-item">
+                  <a href="./portfolio.html" class="nav__link">Portfolio</a>
+                </li>
+                <li class="nav__list-item">
+                  <a href="#" class="nav__link">Kontakt</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+  
+            <ul class="contact-info">
+              <li class="contact-info__item">
+                <a href="#" class="contact-info__link">
+                  <svg width="20" height="16" class="contact-info__icon">
+                    <use href="./image/icons.svg#icon-envelope"></use>
+                  </svg>
+                  <span class="contact-info__text">info@devstudio.com</span>
+                </a>
+              </li>
+  
+              <li class="contact-info__item">
+                <a href="#" class="contact-info__link">
+                  <svg width="17" height="20" class="contact-info__icon">
+                    <use href="./image/icons.svg#icon-smartphone"></use>
+                  </svg>
+                  <span class="contact-info__text">+48 111 111 111</span>
+                </a>
+              </li>
             </ul>
-            </div>
-        </menu>
-        </nav>
-  </Header>
+          </div>
 
     
     <main>
@@ -60,7 +79,7 @@
       <button type="button"class="button-main-filters button-marketing button-filters-self-item:hover button-filters-self-item">Marketing</button>
     </li>
     </div>
-  </main>
+
 
 
     <section>
@@ -166,33 +185,72 @@
     </ul>
     </section>
 
-    <section>
+  </main>
 
-      <footer class="footer">
-         
-        <div class="flex-footer-portfolio-container">
-        <ul class="ul-list-style">
-          <li><a class="logo" href="./index.html"><span class="web-studio1">Web</span><span class="web-studio2">Studio<span/a></li>
-         
-          <li>
-          <address class="text-footer">
+    <footer class="footer">
+      <div class="container footer__container">
+          <div class="footer__left-side">
+
+            <div class="footer__logo">
+            <a href="./index.html" class="logo">
+              <span class="logo__styles">Web</span>Studio
+            </a>
+            
+    
+              <ul>
+                <li class="footer__address">
+                  <address class="footer__address-text">
               m. Warszawa, Aleje Jerozolimskie 21 <br />
             </address>
-          </li>
-          
-        <li>
-      <a class="links-footer link-header-footer" href="mailto: info@devstudio.com"
-            >info@devstudio.com</a></li>
+            </li>
 
-      <li>
-      <a class="links-footer link-header-footer" href="tel:+48 111 111 111"
-              >+48 111 111 111</a> </li>
-    </ul>
-  
-        </div>
-      </footer>
-    </section>
+            <li class="footer__contact-list">
+              <a class="footer__contact" href="mailto: info@devstudio.com">info@devstudio.com</a>
+            </li>
 
+            <li class="footer__contact-list">
+              <a class="footer__contact" href="tel:+48 111 111 111">+48 111 111 111</a>
+              </li>
+              </div>
+
+              <div class="footer__join-us">
+                <h4 class="footer__join-us_title">DOŁĄCZ DO NAS</h4>
+                <ul class="footer__sm-icon-list">
+                  <li>
+                    <a href="#">
+                      <svg class="footer__social-media-icon" width="20" height="20">
+                      <use href="./image/icons.svg#icon-instagram-2"></use>
+                    </svg>
+                  </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      <svg class="footer__social-media-icon" width="20" height="20">
+                      <use href="./image/icons.svg#icon-twitter-1"></use>
+                    </svg>
+                  </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      <svg class="footer__social-media-icon" width="20" height="20">
+                      <use href="./image/icons.svg#icon-facebook-1"></use>
+                    </svg>
+                  </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      <svg class="footer__social-media-icon" width="20" height="20">
+                      <use href="./image/icons.svg#icon-linkedin-1"></use>
+                    </svg>
+                  </a>
+                  </li>
+                  </ul>
+                  </div>
+                  </div>
+                  </footer>
 
   </body>
 </html>
