@@ -120,6 +120,7 @@ body {
 }
 
 .contact-info__icon {
+  fill: var(--color-icon);
 }
 
 .contact-info__text {
@@ -345,7 +346,7 @@ body {
 }
 
 .team__social-media-icon {
-  color: var(--color-icon);
+  fill: var(--color-icon);
 }
 
 .clients {
@@ -378,7 +379,14 @@ body {
 
 .clients__logo {
   padding-top: 17.71px;
-  color: var(--color-icon);
+  fill: var(--color-icon);
+}
+
+.clients__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .clients__box {
@@ -456,7 +464,7 @@ body {
 }
 
 .footer__social-media-icon {
-  color: var(--color-light);
+  fill: var(--color-light);
 }
 
 .footer__social-media-icon-border {
