@@ -266,6 +266,11 @@ body {
 }
 
 .team__container {
+  width: 1600px;
+  height: 648px;
+  top: 1449px;
+
+  background: #f5f4fa;
 }
 
 .team__title {
@@ -277,15 +282,68 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--color-dark);
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.team__list {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .team__box-team {
+  background: #ffffff;
+
+  width: 270px;
+  height: 428px;
+  left: 215px;
+  top: 1785px;
+
+  background: #ffffff;
+
+  list-style-type: none;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team__name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.2;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--color-dark);
+  margin-top: 30px;
+}
+
+.team__profession {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--color-text);
+  margin-bottom: 30px;
 }
 
 .team__icon-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 5px;
 }
 
 .team__social-media-icon {
+  color: var(--color-icon);
 }
 
 .clients {
