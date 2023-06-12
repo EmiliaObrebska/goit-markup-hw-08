@@ -264,6 +264,7 @@ body {
 .team {
   padding: 94px 0 47px 0;
   background-color: #f5f4fa;
+  margin-top: 94px;
 }
 
 .team__container {
@@ -283,7 +284,7 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--color-dark);
-  padding-top: 94px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
@@ -349,6 +350,10 @@ body {
 
 .clients {
   padding: 94px 0 47px 0;
+  margin-bottom: 83px;
+}
+
+.clients__container {
 }
 
 .clients__title {
@@ -360,19 +365,76 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--color-dark);
+
+  padding-top: 78px;
+  padding-bottom: 50px;
+}
+
+.clients__list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
 }
 
 .clients__logo {
+  padding-top: 17.71px;
+  color: var(--color-icon);
+}
+
+.clients__box {
+  box-sizing: border-box;
+
+  width: 170px;
+  height: 92px;
+  left: 215px;
+  top: 2493px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 .footer {
+  background: var(--color-dark-backgorund);
+  padding: 94px 0 47px 0;
 }
 
 .footer__container {
+  width: 1600px;
+  height: 252px;
+  top: 2668px;
 }
 
 .footer__left-side {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 20px;
 }
 
 .footer__logo {
+  padding-bottom: 20px;
+}
+
+.footer__address {
+  color: var(--color-light);
+  text-decoration: none;
+  font-style: normal;
+  list-style: none;
+}
+
+.footer__contact {
+  color: var(--color-text);
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer__sm-icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.footer__join-us {
+  color: var(--color-white);
 }
