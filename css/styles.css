@@ -338,9 +338,9 @@ body {
 
 .team__icon-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
   list-style-type: none;
-  gap: 5px;
 }
 
 .team__social-media-icon {
@@ -348,9 +348,18 @@ body {
 }
 
 .clients {
+  padding: 94px 0 47px 0;
 }
 
 .clients__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--color-dark);
 }
 
 .clients__logo {
