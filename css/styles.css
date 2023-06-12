@@ -395,7 +395,7 @@ body {
 
 .footer {
   background: var(--color-dark-backgorund);
-  padding: 94px 0 47px 0;
+  padding: 94px 0 0 0;
 }
 
 .footer__container {
@@ -417,15 +417,24 @@ body {
 
 .footer__address {
   color: var(--color-light);
+  list-style: none;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+.footer__address-text {
   text-decoration: none;
   font-style: normal;
+}
+
+.footer__contact-list {
   list-style: none;
+  margin-bottom: 10px;
 }
 
 .footer__contact {
   color: var(--color-text);
   text-decoration: none;
-  list-style: none;
 }
 
 .footer__sm-icon-list {
@@ -433,8 +442,34 @@ body {
   justify-content: center;
   gap: 30px;
   list-style-type: none;
+  padding-left: 70px;
 }
 
 .footer__join-us {
+  margin-bottom: 100px;
+}
+
+.footer__join-us_title {
   color: var(--color-white);
+  padding-left: 70px;
+  padding-bottom: 20px;
+}
+
+.footer__social-media-icon {
+  color: var(--color-light);
+}
+
+.footer__social-media-icon-border {
+  height: 44px;
+  width: 44px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: rgba(255, 255, 255, 0.1);
 }
