@@ -184,6 +184,7 @@ body {
 
 .advantages__container {
 }
+
 .advantages__list {
   display: flex;
   justify-content: space-between;
@@ -234,9 +235,30 @@ body {
 }
 
 .tasks {
+  padding: 94px 0 47px 0;
+}
+
+.tasks__container {
 }
 
 .tasks__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--color-dark);
+
+  margin-bottom: 50px;
+}
+
+.tasks__list-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  list-style: none;
 }
 
 .team {
