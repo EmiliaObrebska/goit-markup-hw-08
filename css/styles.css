@@ -263,10 +263,11 @@ body {
 
 .team {
   padding: 94px 0 47px 0;
+  background-color: #f5f4fa;
 }
 
 .team__container {
-  width: 1600px;
+  width: 1200px;
   height: 648px;
   top: 1449px;
 
