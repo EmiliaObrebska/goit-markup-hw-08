@@ -101,6 +101,12 @@ body {
   text-decoration: none;
 }
 
+.nav__link:hover {
+  color: var(--color-primary);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
 .contact-info {
   display: flex;
   justify-content: flex-end;
@@ -123,14 +129,21 @@ body {
   fill: var(--color-icon);
 }
 
+.contact-info__link:hover .contact-info__icon {
+  fill: var(--color-primary);
+}
+
 .contact-info__text {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-
   color: var(--color-dark);
+}
+
+.contact-info__link:hover .contact-info__text {
+  fill: var(--color-primary);
 }
 
 .hero {
@@ -336,6 +349,7 @@ body {
 
   color: var(--color-text);
   margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 .team__icon-list {
@@ -347,6 +361,10 @@ body {
 
 .team__social-media-icon {
   fill: var(--color-icon);
+}
+
+.team__social-media-icon:hover {
+  fill: var(--color-primary);
 }
 
 .clients {
@@ -380,6 +398,10 @@ body {
 .clients__logo {
   padding-top: 17.71px;
   fill: var(--color-icon);
+}
+
+.clients__logo:hover {
+  fill: var(--color-primary);
 }
 
 .clients__link {
@@ -470,14 +492,8 @@ body {
 .footer__social-media-icon-border {
   height: 44px;
   width: 44px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
 
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
+  border-radius: 50%;
 
   background: rgba(255, 255, 255, 0.1);
 }
@@ -530,12 +546,10 @@ body {
 .projects__list {
   list-style: none;
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px;
-}
-
-.projects__list-last {
+  justify-content: start;
   margin-bottom: 92px;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .projects__box {
