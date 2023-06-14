@@ -369,6 +369,10 @@ body {
   padding-left: 12px;
 }
 
+.team__social-media-item a:hover svg {
+  fill: var(--color-white);
+}
+
 .team__social-media-icon {
   width: 20px;
   height: 20px;
@@ -410,7 +414,6 @@ body {
 }
 
 .clients__logo {
-  padding-top: 17px;
   fill: var(--color-icon);
 }
 
@@ -418,7 +421,7 @@ body {
   fill: var(--color-primary);
 }
 
-.clients__logo .clients__link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
