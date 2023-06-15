@@ -417,6 +417,10 @@ body {
   fill: var(--color-icon);
 }
 
+.clients__logo:hover {
+  cursor: pointer;
+}
+
 .clients__link {
   display: flex;
   justify-content: center;
@@ -427,9 +431,20 @@ body {
 .clients__box {
   width: 170px;
   height: 92px;
+  left: 215px;
+  top: 2493px;
 
-  border: 1px solid rgba(175, 177, 184, 1);
+  box-sizing: border-box;
   border-radius: 4px;
+  border: 1px solid rgba(175, 177, 184, 1);
+}
+
+.clients__box:hover {
+  border: 1px solid #2196f3;
+}
+
+.clients__box:hover .clients__logo {
+  fill: #2196f3;
 }
 
 .footer {
