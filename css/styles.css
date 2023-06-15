@@ -363,24 +363,17 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: var(--color-white);
   gap: 10px;
-  padding-top: 12px;
-  padding-left: 12px;
-}
-
-.team__social-media-item a:hover svg {
-  background-color: var(--color-primary);
-  cursor: pointer;
+  padding: 12px;
 }
 
 .team__social-media-icon {
-  width: 20px;
-  height: 20px;
   fill: var(--color-icon);
+  border-radius: 50%;
+  display: block;
 }
 
-.team__social-media-item:hover {
+.team__social-media-icon:hover {
   background-color: var(--color-primary);
   fill: var(--color-white);
   cursor: pointer;
