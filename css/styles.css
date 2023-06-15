@@ -417,10 +417,6 @@ body {
   fill: var(--color-icon);
 }
 
-.clients__logo:hover {
-  fill: var(--color-primary);
-}
-
 .clients__link {
   display: flex;
   justify-content: center;
@@ -429,8 +425,6 @@ body {
 }
 
 .clients__box {
-  box-sizing: border-box;
-
   width: 170px;
   height: 92px;
 
