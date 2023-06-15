@@ -370,7 +370,8 @@ body {
 }
 
 .team__social-media-item a:hover svg {
-  fill: var(--color-white);
+  background-color: var(--color-primary);
+  cursor: pointer;
 }
 
 .team__social-media-icon {
