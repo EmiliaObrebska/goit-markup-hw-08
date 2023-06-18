@@ -99,6 +99,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-dark);
   text-decoration: none;
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
 }
 
 .nav__link:hover {
@@ -123,10 +127,18 @@ body {
   text-decoration: none;
   display: flex;
   gap: 10px;
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
 }
 
 .contact-info__icon {
   fill: var(--color-icon);
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
 }
 
 .contact-info__link:hover .contact-info__icon {
@@ -365,16 +377,19 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
 }
 
 .team__social-media-icon {
   fill: var(--color-icon);
   display: block;
-}
-
-.team__social-media-icon {
-  fill: var(--color-icon);
-  display: block;
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
 }
 
 .team__social-media-item a:hover {
@@ -410,6 +425,10 @@ body {
 
 .clients__logo {
   fill: var(--color-icon);
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
 }
 
 .clients__logo:hover {
