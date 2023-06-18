@@ -105,6 +105,23 @@ body {
   transition-delay: 0;
 }
 
+.nav__text-underline-offset {
+  position: relative;
+  top: 28px;
+}
+
+.nav__text-underline-offset::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 53px;
+  height: 4px;
+  background-color: var(--color-primary);
+  border-radius: 2px;
+}
+
+
 .nav__link:hover {
   color: var(--color-primary);
   border-radius: 2px;
@@ -616,6 +633,41 @@ body {
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
+}
+
+.project__box-transitions {
+  width: 301px;
+  height: 196px;
+  left: 239px;
+  top: 311px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  text-decoration: none;
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+}
+
+.project__box-transitions:hover {
+  background-color: var(--color-primary);
+}
+
+.project__box-transitions-texts {
+  width: 301px;
+  height: 196px;
+  left: 239px;
+  top: 311px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5px;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
 }
 
 .projects__box-title {
