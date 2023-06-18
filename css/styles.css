@@ -121,7 +121,6 @@ body {
   border-radius: 2px;
 }
 
-
 .nav__link:hover {
   color: var(--color-primary);
   border-radius: 2px;
@@ -618,12 +617,8 @@ body {
 
 .projects__box {
   box-sizing: border-box;
-
   width: 370px;
   height: 404px;
-  left: 215px;
-  top: 262px;
-
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
@@ -635,39 +630,35 @@ body {
   cursor: pointer;
 }
 
-.project__box-transitions {
-  width: 301px;
-  height: 196px;
-  left: 239px;
-  top: 311px;
-
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
-  text-decoration: none;
-  transition-property: transform;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
+.projects__box-overlay {
+  position: relative;
+  overflow: hidden;
 }
 
-.project__box-transitions:hover {
+.projects__box-overlay-text {
+  position: absolute;
   background-color: var(--color-primary);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4,0,0.2,1);
 }
 
-.project__box-transitions-texts {
-  width: 301px;
-  height: 196px;
-  left: 239px;
-  top: 311px;
-
-  font-style: normal;
+.projects__box-overlay-text p {
+  position: absolute;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.5px;
-
+  line-height: 28px;
   letter-spacing: 0.03em;
+  color: var(--color-white);
+  padding: 49px 45px 49px 24px;
+}
 
-  color: #ffffff;
+.projects__box-overlay:hover .project__box-overlay-text
+.projects__box-overlay:focus .project__box-overlay-text  {
+  transform: translateY(0);
 }
 
 .projects__box-title {
