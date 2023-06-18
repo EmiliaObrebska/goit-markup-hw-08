@@ -343,10 +343,8 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--color-text);
   margin-bottom: 15px;
   margin-top: 10px;
@@ -356,26 +354,17 @@ body {
   display: flex;
   justify-content: center;
   gap: 10px;
+  width: 100%;
   list-style-type: none;
 }
 
-.team__social-media-item {
+.team__social-media-item a {
   width: 44px;
   height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
-}
-
-.team__social-media-item:hover {
-  background-color: var(--color-primary);
-}
-
-.team__social-media-icon {
-  fill: var(--color-icon);
-  margin: 12px;
-}
-
-.team__social-media-icon:hover {
-  fill: var(--color-white);
 }
 
 .team__social-media-icon {
@@ -383,7 +372,16 @@ body {
   display: block;
 }
 
-.team__social-media-item :hover .team__social-media-icon {
+.team__social-media-icon {
+  fill: var(--color-icon);
+  display: block;
+}
+
+.team__social-media-item a:hover {
+  background-color: var(--color-primary);
+}
+
+.team__social-media-item a:hover .team__social-media-icon {
   fill: var(--color-white);
 }
 
