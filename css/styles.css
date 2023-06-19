@@ -643,7 +643,7 @@ body {
   width: 100%;
   height: 100%;
   transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4,0,0.2,1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects__box-overlay-text p {
@@ -656,8 +656,10 @@ body {
   padding: 49px 45px 49px 24px;
 }
 
-.projects__box-overlay:hover .project__box-overlay-text
-.projects__box-overlay:focus .project__box-overlay-text  {
+.projects__box-overlay:hover
+  .project__box-overlay-text
+  .projects__box-overlay:focus
+  .project__box-overlay-text {
   transform: translateY(0);
 }
 
