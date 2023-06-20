@@ -710,8 +710,6 @@ body {
   position: absolute;
   width: 528px;
   height: 581px;
-  left: 536px;
-  top: 221px;
   cursor: auto;
   margin: 0 auto;
   bottom: 221px;
@@ -743,26 +741,13 @@ body {
   visibility: hidden; 
   opacity: 0;
   transform: translateX(-50%); 
-  translateY(-50%); scale: 0;rotate: (0deg); 
 }
 
 .modal-close {
   border: none;
   width: 30px;
   height: 30px;
-  background-color: #fff;
-  position: relative;
   top: 8px;
   left: 91%;
   cursor: pointer;
-}
-
-.x {
-  position: absolute;
-  left: 22.22%;
-  right: 16.67%;
-  top: 16.67%;
-  bottom: 22.22%;
-  
-  background: var(--color-back);
 }
