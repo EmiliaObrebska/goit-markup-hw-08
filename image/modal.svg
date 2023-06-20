@@ -1,26 +1,10 @@
-<svg width="534" height="587" viewBox="0 0 534 587" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Form bg" filter="url(#filter0_ddd_3335_432)">
-<path d="M3 6.00001C3 3.79087 4.79086 2 7 2H527C529.209 2 531 3.79086 531 6V579C531 581.209 529.209 583 527 583H7C4.79086 583 3 581.209 3 579V6.00001Z" fill="white"/>
-</g>
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<filter id="filter0_ddd_3335_432" x="0" y="0" width="534" height="587" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="2"/>
-<feGaussianBlur stdDeviation="0.5"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3335_432"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="1"/>
-<feGaussianBlur stdDeviation="0.5"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.14 0"/>
-<feBlend mode="normal" in2="effect1_dropShadow_3335_432" result="effect2_dropShadow_3335_432"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="1"/>
-<feGaussianBlur stdDeviation="1.5"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
-<feBlend mode="normal" in2="effect2_dropShadow_3335_432" result="effect3_dropShadow_3335_432"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect3_dropShadow_3335_432" result="shape"/>
-</filter>
+<symbol id="icon-Form-bg" viewBox="0 0 29 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M0.164 0.327c0-0.12 0.098-0.218 0.218-0.218h28.348c0.12 0 0.218 0.098 0.218 0.218v31.237c0 0.12-0.098 0.218-0.218 0.218h-28.348c-0.12 0-0.218-0.098-0.218-0.218v-31.237z"></path>
+</symbol>
+<symbol id="icon-Overlay" viewBox="0 0 50 32">
+<path d="M0 0h50v32h-50v-32z"></path>
+</symbol>
 </defs>
 </svg>
