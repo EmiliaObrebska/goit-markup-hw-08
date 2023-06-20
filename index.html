@@ -70,7 +70,9 @@
       <section class="hero">
         <div class="container hero__container">
           <h1 class="hero__text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button type="button" class="hero__button">Zamów usługę</button>
+          <button type="button" data-modal-open class="hero__button">
+            Zamów usługę
+          </button>
         </div>
       </section>
 
@@ -527,13 +529,15 @@
       </div>
     </footer>
 
-    .is-hidden { pointer-events: none; visibility: hidden; opacity: 0;
-    transform: translateX(-50%); translateY(-50%); scale: 0;rotate: (0deg); }
-
-    <button data-modal-open>OPEN</button>
-
-    <div class="modal is-hidden" data-modal>
-      <button data-modal-close>CLOSE</button>
+    <div class="backdrop is-hidden" data modal>
+      <div class="modal">
+        <button type="button" class="modal-close" data-modal-close>
+          X
+          <svg width="18" height="18">
+            <use href="./image/modal.svg#Form bg"></use>
+          </svg>
+        </button>
+      </div>
     </div>
 
     <script src="./js/modal.js"></script>
