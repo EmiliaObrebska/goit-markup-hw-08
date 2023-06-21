@@ -711,8 +711,8 @@ body {
   height: 581px;
   width: 528px;
   transform: translate (-50%, -50%);
-  left: 50%;
-  top: 50%;
+  left: 40%;
+  top: 30%;
   cursor: auto;
   margin: 0;
   background: var(--color-white);
