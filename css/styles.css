@@ -755,11 +755,7 @@ body {
   cursor: pointer;
 }
 
-.input {
-}
 
-.input-wrap {
-}
 
 .input-label {
   font-weight: 400;
@@ -771,26 +767,21 @@ body {
   display: flex;
 }
 
-.input-form {
 
-}
 
 
 .input-form:focus {
   outline: 1px solid var(--color-primary);
   transition-property: outline;
-  transition-duration: var(--default-time);........................
-  transition-timing-function: var(--default-timing-function);.............
+  transition-duration: var(--default-time);
+  transition-timing-function: var(--default-timing-function);
 }
 
 .input-form:focus + svg {
   fill: var(--color-primary);
   transition-property: fill;
-  transition-duration: var(--default-time)____________________________
-  transition-timing-function: var(--default-timing-function)>___________
-}
-
-.input-box {
+  transition-duration: var(--default-time);
+  transition-timing-function: var(--default-timing-function);
 }
 
 .input-icon {
@@ -809,5 +800,3 @@ body {
   fill: var(--color-dark);
 }
 
-.button-wrap {
-}
