@@ -529,90 +529,78 @@
       </div>
     </footer>
 
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button type="button" class="modal-close" data-modal-close>
-          x
-          <svg width="18" height="18">
-            <use href="./image/modal.svg#icon-Form-bg"></use>
-          </svg>
-        </button>
+    
 
-        <form name="order" autocomplete="on" class="">
-          <h3>Zostaw swoje dane w formularzu poniżej</h3>
-          <div class="input-icons">
-
-          <div class="input-wrap">
-              <label
-                  for="name"
-                  class="input-label"
-                  >Imię</label>
-                  <input
-                  class="input-form"
-                  id="name"
-                  type="text"
-                  name="name"
-                  required />
-                  </div>
-                  <svg width="12px" height="12px" class="icon-form" >
-                <use href="./image/icons.svg#.................."></use></svg> 
-                </div>
-
-                <div class="input-wrap">
-                  <label
-                      for="tel"
-                      class="input-label"
-                      >Telefon</label>
-                      <input
-                      class="input-form"
-                      id="tel"
-                      type="text"
-                      name="tel"
-                      required />
-                      </div>
-
-                      <div class="input-wrap">
-                        <label
-                            for="email"
-                            class="input-label"
-                            >Imię</label>
-                            <input
-                            class="input-form"
-                            id="email"
-                            type="text"
-                            name="email"
-                            required />
-                            </div>
-
-                 
-
-
-
-
-
-                      <svg width="12px" height="12px" class="icon-form" >
-                    <use href="./image/icons.svg#.................."></use></svg> 
-                    </div>
-
-
-              <div class="input-box">
-                  <input
-                      class="input"
-                      type="text"
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button class="modal-close" data-modal-close>
+                <svg width="30" height="30"><use href="./image/input.svg#icon-close-black-18dp-2-1"></use></svg>
+              </button>
+          
+              <form name="order_the_service" autocomplete="on" class="form-style">
+                <h3 >Zostaw swoje dane w formularzu poniżej</h3>
+                <div class="input-icons">
+          
+               <div class="form-box"> 
+                <label for="name" class="form-label"> 
+                  Imie</label> 
+                  <input 
+                    class="form-input" 
+                    id="name" 
+                    type="text" 
+                    name="name" 
+                    required 
                   />
-                  <svg
-                      class="input-icon"
-                      width="11"
-                      height="11"
-                  >
-                      <use href="./images/icons.svg#icon-Vector"></use>
-                  </svg>
+                  <svg width="12px" height="12px" class="icons-form" ><use href="./images/icons.svg#icon-name"></use></svg> 
               </div>
+          
+              <div class="form-box"> 
+                <label for="phone" class="form-label">
+                  Telefon</label>
+                  <input 
+                    class="form-input" 
+                    id="phone" 
+                    type="tel" 
+                    name="phone_number"
+                    />
+                  <svg width="13px" height="13px" class="icons-form"><use href="./images/icons.svg#icon-phone"></use></svg>
+               </div> 
+                
+               <div class="form-box" > 
+                <label for="e-mail" class="form-label">Email</label>
+                  <input id="e-mail" type="email" name="email" class="form-input" >
+                  <svg width="15px" height="12px" class="icons-form"><use href="./images/icons.svg#icon-e-mail"></use></svg>
+                </div> 
+          
+                <label for="comment" class="form-label"><p>Komentarz</p></label>
+                  <textarea id="comment" name="comment" placeholder="Wprowadź tekst" class="textarea form-input"></textarea>
+                </div>
+          
+          
+                <label class="checkbox-label" for="checkbox-accept">  
+                  <input class="checkbox-hidden" type="checkbox" width="16px"height="15px"
+                  name="reg_accept" required>
+                  <svg class="checkbox-icon-unchecked" width="16px" height="15px"> 
+                    <use href="./images/icons.svg#icon-checkbox"></use>
+                  </svg>
+                  <svg class="checkbox-icon" width="16px" height="15px"> 
+                    <use href="./images/icons.svg#icon-tick"></use>
+                  </svg>
+          
+                 
+                  
+                 
+                  <div class="checkbox-text">Oświadczam iż akceptuję <a href="">Regulamin</a> i <a href="">Politykę Prywatności</a></div>
+          
+                </label>
+          
+          
+                <button type="submit" class="button-main-page">Wyślij</button>
+              </form>
+            </div>
           </div>
-          <div class="button-wrap">
-              <button class="button">jakis tekst</button>
-          </div>
-      </form>
+    
+       
 
 
       </div>
