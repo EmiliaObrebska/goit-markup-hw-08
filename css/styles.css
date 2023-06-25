@@ -808,13 +808,17 @@ body {
   opacity: 0;
 }
 
-.modal.close {
+.modal-close {
   position: relative;
-  width: 18px;
-  height: 18px;
+  width: 30px;
+  height: 30px;
+  top: 15px;
+  left: 480px;
   background-color: var(--color-white);
+  fill: var(--color-white);
   border: none;
   cursor: pointer;
+
 }
 
 .input__title {
