@@ -526,7 +526,7 @@
             </ul>
           </div>
 
-              <div class="newsletter">
+          <div class="newsletter">
             <h5 class="newsletter__text">ZAPISZ SIĘ DO NEWSLETTERA</h5>
             <div class="newsletter__button">
               <input
@@ -535,10 +535,10 @@
                 name="email"
                 placeholder="E-mail"
               />
-              <button class="news-button" type="submit">
+              <button class="newsletter__signup-button" type="submit">
                 Zapisz się
-                <svg class="news-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-email-black-2"></use>
+                <svg class="newsletter__icon" width="32" height="32">
+                  <use href="./image/input.svg#icon-icon-send"></use>
                 </svg>
               </button>
             </div>
@@ -547,48 +547,44 @@
       </div>
     </footer>
 
-    
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-close" data-modal-close>
+          <svg width="18" height="18">
+            <use href="./image/close.svg#icon-close"></use>
+          </svg>
+        </button>
 
-          <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-              <button class="modal-close" data-modal-close>
-                <svg width="18" height="18">
-                  <use href="./image/input.svg#icon-close-black-18dp-2-1"></use></svg>
-              </button>
-              
-               <form>
+        <form>
           <h3 class="input__title">Zostaw swoje dane w formularzu poniżej</h3>
 
-          <div class="input-svg">
+          <div class="input__svg">
             <label>
               Imie
-              <div class="label-part">
-                <input 
-                type="text" 
-                name="name" 
-                required />
-                <svg class="svg-form" width="18" height="18">
-                  <use href="./image/input.svg#icon-Vector"></use>
+              <div class="input__box">
+                <input type="text" name="name" required />
+                <svg class="input__icon" width="18" height="18">
+                  <use href="./image/input.svg#icon-person-black-18dp-1"></use>
                 </svg>
               </div>
             </label>
 
             <label>
               Telefon
-              <div class="label-part">
+              <div class="input__box">
                 <input type="tel" name="phone" required />
-                <svg class="svg-form" width="18" height="18">
-                  <use href="./images/icons.svg#icon-person-black-2"></use>
+                <svg class="input__icon" width="18" height="18">
+                  <use href="./image/input.svg#icon-phone-black-18dp-1"></use>
                 </svg>
               </div>
             </label>
 
             <label>
               Email
-              <div class="label-part">
+              <div class="input__box">
                 <input type="email" name="email" required />
-                <svg class="svg-form" width="18" height="18">
-                  <use href="./images/icons.svg#icon-email-black-1"></use>
+                <svg class="input__icon" width="18" height="18">
+                  <use href="./image/input.svg#icon-email-black-18dp-1"></use>
                 </svg>
               </div>
             </label>
@@ -597,28 +593,28 @@
           <label>
             Komentarz
             <textarea
-              class="placeholder"
+              class="input__placeholder"
               name="comment"
               placeholder="Wprowadź tekst"
             ></textarea>
           </label>
-          <label class="acceptance-label">
+          <label class="input__check-square">
             <input
-              class="checkbox-hidden"
+              class="input__checkbox-square-hidden"
               type="checkbox"
-              name="acceptance"
+              name="check-square"
               required
             />
-            <svg class="checkbox-icon-unchecked" width="16" height="15">
-              <use href="./images/icons.svg#icon-checkbox"></use>
+            <svg class="input__checkbox-icon-empty" width="16" height="16">
+              <use href="./image/checksquare.svg#icon-checksquare"></use>
             </svg>
-            <svg class="checkbox-icon" width="16" height="15">
-              <use href="./images/icons.svg#icon-tick"></use>
+            <svg class="input__checkbox-icon" width="16" height="16">
+              <use href="./image/checksquare.svg#icon-checksquare"></use>
             </svg>
-            <p class="text-regul">
+            <p class="input__statement">
               Oświadczam iż akceptuję
-              <a class="text-decor" href="">Regulamin</a> i
-              <a class="text-decor" href="">Politykę Prywatności.</a>
+              <a class="input__statement-style" href="">Regulamin</a> i
+              <a class="input__statement-style" href="">Politykę Prywatności</a>
             </p>
           </label>
           <div class="button-block">
@@ -627,8 +623,6 @@
         </form>
       </div>
     </div>
-          
-            
 
     <script src="./js/modal.js"></script>
   </body>
