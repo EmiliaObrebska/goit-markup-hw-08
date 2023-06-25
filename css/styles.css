@@ -755,8 +755,8 @@ body {
 
 .input__title {
   font-weight: 700;
-  font-size: 18px;
-  line-height: 1.15;
+  font-size: 20px;
+  line-height: 23px;
   display: flex;
   justify-content: center;
   letter-spacing: 0.03em;
@@ -906,28 +906,28 @@ textarea:focus-within {
   margin-left: 78px;
 }
 
-.news-text {
+.newsletter__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--color-white);
   margin-top: 0;
 }
 
-.input-email {
-  background-color: #2f303a;
+.newsletter__button {
+  display: flex;
+  gap: 12px;
+}
+
+.newsletter__input-email {
+  background-color: var(--color-dark-backgorund);
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-}
-
-.email-button {
-  display: flex;
-  gap: 12px;
 }
 
 .news-button {
