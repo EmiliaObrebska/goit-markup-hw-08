@@ -1,37 +1,37 @@
 .portfolio__container-filters {
-  margin-top: 94px;
-  margin-bottom: 34px;
-}
+    margin-top: 94px;
+    margin-bottom: 34px;
 
-&__filters-list {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-}
+    &__filters-list {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+    }
 
-&__filters-button {
-  width: 121px;
-  height: 38px;
-  left: 532px;
-  top: 180px;
+    &__filters-button {
+        width: 121px;
+        height: 38px;
+        left: 532px;
+        top: 180px;
 
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
 
-  text-align: center;
-  letter-spacing: 0.03em;
+        text-align: center;
+        letter-spacing: 0.03em;
 
-  color: var(--color-dark);
-  background-color: var(--color-secondary-background);
-  border: var(--color-lorem);
+        color: var(--color-dark);
+        background-color: var(--color-secondary-background);
+        border: var(--color-lorem);
 
-  &:hover {
-    background-color: #2196f3;
-    color: rgb(236, 238, 240);
-    border-radius: 2px;
-    cursor: pointer;
-  }
+        &:hover {
+            background-color: #2196f3;
+            color: rgb(236, 238, 240);
+            border-radius: 2px;
+            cursor: pointer;
+        }
+    }
 }
