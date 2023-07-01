@@ -13,8 +13,6 @@
   position: absolute;
 }
 
-
-
 &__box {
   position: relative;
 }
@@ -37,12 +35,13 @@ input {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-input:focus 
-  border: 1px solid var(--color-primary);
-  outline: none;
+  input:focus {
+    border: 1px solid var(--color-primary);
+    outline: none;
+  }
+}
 
-
-input:focus + .input__icon 
+input:focus + .input__icon {
   fill: var(--color-primary);
   transition-property: fill;
   transition-duration: 250ms;
@@ -67,13 +66,11 @@ input:focus + .input__icon
   top: 20px;
   bottom: 30px;
 
-  
-&__checkbox-square-hidden 
-visibility: hidden;
-position: absolute;
+  &__checkbox-square-hidden {
+    visibility: hidden;
+    position: absolute;
+  }
 }
-
-
 
 &__checkbox-icon {
   position: absolute;
@@ -87,11 +84,12 @@ position: absolute;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  &__checkbox-icon-empty 
+  &__checkbox-icon-empty {
     position: relative;
-  
-  
-.input__checkbox-square-hidden:checked ~ .input__checkbox-icon 
+  }
+}
+
+.input__checkbox-square-hidden:checked ~ .input__checkbox-icon {
   visibility: visible;
   background-color: var(--color-primary);
 }
@@ -100,10 +98,10 @@ position: absolute;
   margin-left: 15px;
   margin-bottom: 3px;
 
-
-&__statement-style 
-  color: var(--color-primary);
-  text-decoration: underline;
+  &__statement-style {
+    color: var(--color-primary);
+    text-decoration: underline;
+  }
 }
 
 &__button-send {

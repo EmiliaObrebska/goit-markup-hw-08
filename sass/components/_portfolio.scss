@@ -1,7 +1,4 @@
-.portfolio {
-}
-
-&__container-filters {
+.portfolio__container-filters {
   margin-top: 94px;
   margin-bottom: 34px;
 }
@@ -31,10 +28,10 @@
   background-color: var(--color-secondary-background);
   border: var(--color-lorem);
 
-
-&:hover 
-  background-color: #2196f3;
-  color: rgb(236, 238, 240);
-  border-radius: 2px;
-  cursor: pointer;
+  &:hover {
+    background-color: #2196f3;
+    color: rgb(236, 238, 240);
+    border-radius: 2px;
+    cursor: pointer;
+  }
 }

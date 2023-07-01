@@ -92,20 +92,20 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
 
+  &__social-media-icon {
+    fill: var(--color-icon);
+    display: block;
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+  }
+}
 
-&__social-media-icon 
-  fill: var(--color-icon);
-  display: block;
-  transition-property: transform;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
-
-
-.team__social-media-item a:hover 
+.team__social-media-item a:hover {
   background-color: var(--color-primary);
+}
 
-
-.team__social-media-item a:hover .team__social-media-icon 
+.team__social-media-item a:hover .team__social-media-icon {
   fill: var(--color-white);
 }
