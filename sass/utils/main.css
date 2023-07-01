@@ -446,6 +446,10 @@ body {
   padding: 1;
 }
 
+.clients__container {
+  padding: 1;
+}
+
 .clients__title {
   font-style: normal;
   font-weight: 700;
