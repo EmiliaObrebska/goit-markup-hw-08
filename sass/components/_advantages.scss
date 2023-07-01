@@ -2,21 +2,24 @@
   padding: 94px 0 47px 0;
 
 
-.advantages__list {
+&__list 
   display: flex;
   justify-content: space-between;
   gap: 30px;
   list-style: none;
 
-.advantages__list-item {
+
+&__list-item 
   width: 270px;
 }
 
-.advantages__figure {
+
+
+&__figure {
   width: 100%;
 }
 
-.advantages__pic-wrap {
+&__pic-wrap {
   display: flex;
   justify-content: center;
   background-color: var(--color-lorem);
@@ -25,10 +28,10 @@
   margin-bottom: 30px;
 }
 
-.advantages__art {
+&__art {
 }
 
-.advantages__title {
+&__title {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -40,7 +43,7 @@
   margin-bottom: 10px;
 }
 
-.advantages__text {
+&__text {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -49,3 +52,5 @@
   letter-spacing: 0.03em;
   color: var(--color-text);
 }
+
+

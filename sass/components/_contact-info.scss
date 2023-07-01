@@ -5,12 +5,12 @@
   gap: 31px;
 }
 
-.contact-info__item {
+&__item {
   display: flex;
   gap: 31px;
 }
 
-.contact-info__link {
+&__link {
   text-decoration: none;
   display: flex;
   gap: 10px;
@@ -18,9 +18,14 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
+
+
+&:hover .contact-info__icon 
+  fill: var(--color-primary);
 }
 
-.contact-info__icon {
+
+&__icon {
   fill: var(--color-icon);
   transition-property: transform;
   transition-duration: 250ms;
@@ -28,19 +33,16 @@
   transition-delay: 0;
 }
 
-.contact-info__link:hover .contact-info__icon {
-  fill: var(--color-primary);
-}
 
-.contact-info__text {
+&__text {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--color-dark);
-}
 
-.contact-info__link:hover .contact-info__text {
+
+&:hover .contact-info__text 
   color: var(--color-primary);
 }

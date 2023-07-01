@@ -4,7 +4,7 @@
   margin-top: 94px;
 }
 
-.team__container {
+&__container {
   width: 1200px;
   height: 648px;
   top: 1449px;
@@ -12,7 +12,7 @@
   background: #f5f4fa;
 }
 
-.team__title {
+&_title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -25,13 +25,13 @@
   padding-bottom: 50px;
 }
 
-.team__list {
+&__list {
   width: 1200px;
   display: flex;
   justify-content: space-between;
 }
 
-.team__box-team {
+&__box-team {
   background: #ffffff;
 
   width: 270px;
@@ -48,7 +48,7 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.team__name {
+&__name {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -60,8 +60,7 @@
   color: var(--color-dark);
   margin-top: 30px;
 }
-
-.team__profession {
+&__profession {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -73,7 +72,7 @@
   margin-top: 10px;
 }
 
-.team__icon-list {
+&__icon-list {
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -81,7 +80,7 @@
   list-style-type: none;
 }
 
-.team__social-media-item a {
+&__social-media-item a {
   width: 44px;
   height: 44px;
   display: flex;
@@ -92,21 +91,21 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
-}
 
-.team__social-media-icon {
+
+&__social-media-icon 
   fill: var(--color-icon);
   display: block;
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
-}
 
-.team__social-media-item a:hover {
+
+.team__social-media-item a:hover 
   background-color: var(--color-primary);
-}
 
-.team__social-media-item a:hover .team__social-media-icon {
+
+.team__social-media-item a:hover .team__social-media-icon 
   fill: var(--color-white);
 }

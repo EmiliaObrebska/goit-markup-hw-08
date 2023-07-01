@@ -9,27 +9,17 @@
   margin-top: 20px;
 }
 
-.input__svg svg {
+&__svg svg {
   position: absolute;
 }
 
-label {
-  display: block;
-  margin-top: 10px;
-  margin-left: 40px;
-  padding-right: 15px;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.2;
-  letter-spacing: 0.01em;
-  color: var(--color-text);
-}
 
-.input__box {
+
+&__box {
   position: relative;
 }
 
-.input__icon {
+&__icon {
   top: 12px;
   left: 14px;
   fill: var(--color-dark);
@@ -46,26 +36,25 @@ input {
 
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-input:focus {
+input:focus 
   border: 1px solid var(--color-primary);
   outline: none;
-}
 
-input:focus + .input__icon {
+
+input:focus + .input__icon 
   fill: var(--color-primary);
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input__placeholder {
+&__placeholder {
   padding-top: 12px;
   padding-left: 16px;
 }
 
-.input__check-square {
+&__check-square {
   display: flex;
   font-weight: 400;
   font-size: 14px;
@@ -77,18 +66,16 @@ input:focus + .input__icon {
   position: relative;
   top: 20px;
   bottom: 30px;
+
+  
+&__checkbox-square-hidden 
+visibility: hidden;
+position: absolute;
 }
 
-.input__checkbox-square-hidden {
-  visibility: hidden;
-  position: absolute;
-}
 
-.input__checkbox-icon-empty {
-  position: relative;
-}
 
-.input__checkbox-icon {
+&__checkbox-icon {
   position: absolute;
   margin-top: 4px;
   margin-left: 0.5px;
@@ -99,24 +86,27 @@ input:focus + .input__icon {
   transition-property: background-color, visibility;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.input__checkbox-square-hidden:checked ~ .input__checkbox-icon {
+  &__checkbox-icon-empty 
+    position: relative;
+  
+  
+.input__checkbox-square-hidden:checked ~ .input__checkbox-icon 
   visibility: visible;
   background-color: var(--color-primary);
 }
 
-.input__statement {
+&__statement {
   margin-left: 15px;
   margin-bottom: 3px;
-}
 
-.input__statement-style {
+
+&__statement-style 
   color: var(--color-primary);
   text-decoration: underline;
 }
 
-.input__button-send {
+&__button-send {
   width: 200px;
   height: 50px;
   background-color: var(--color-primary);
@@ -132,7 +122,7 @@ input:focus + .input__icon {
   margin: 0 auto;
 }
 
-.input__button-style {
+&__button-style {
   display: flex;
   justify-content: center;
 

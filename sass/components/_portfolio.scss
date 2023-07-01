@@ -1,19 +1,19 @@
 .portfolio {
 }
 
-.portfolio__container-filters {
+&__container-filters {
   margin-top: 94px;
   margin-bottom: 34px;
 }
 
-.portfolio__filters-list {
+&__filters-list {
   list-style: none;
   display: flex;
   justify-content: center;
   gap: 8px;
 }
 
-.portfolio__filters-button {
+&__filters-button {
   width: 121px;
   height: 38px;
   left: 532px;
@@ -30,9 +30,9 @@
   color: var(--color-dark);
   background-color: var(--color-secondary-background);
   border: var(--color-lorem);
-}
 
-.portfolio__filters-button:hover {
+
+&:hover 
   background-color: #2196f3;
   color: rgb(236, 238, 240);
   border-radius: 2px;

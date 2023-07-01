@@ -2,17 +2,17 @@
   padding: 25px 0;
 }
 
-.header__container {
+&__container {
   display: flex;
   justify-content: space-between;
 }
 
-.header__left-side {
+&__left-side {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.header__logo {
+&__logo {
   margin: 0 93px 0 0;
 }
