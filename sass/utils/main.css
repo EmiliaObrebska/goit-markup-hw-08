@@ -442,7 +442,7 @@ body {
   fill: var(--color-white);
 }
 
-.clients__container {
+.clients {
   padding: 1;
 }
 
