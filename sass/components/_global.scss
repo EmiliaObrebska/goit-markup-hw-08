@@ -1,8 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
-  color: var(--dark-color);
-  background: #ffffff;
+  color: $color-dark;
+  background: $color-white;
 }
 
 * {
@@ -29,13 +29,13 @@ body {
 }
 
 label {
-    display: block;
-    margin-top: 10px;
-    margin-left: 40px;
-    padding-right: 15px;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.2;
-    letter-spacing: 0.01em;
-    color: var(--color-text);
-  }
+  display: block;
+  margin-top: 10px;
+  margin-left: 40px;
+  padding-right: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: $color-text;
+}
