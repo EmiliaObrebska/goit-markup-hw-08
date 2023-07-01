@@ -5,6 +5,7 @@
   gap: 31px;
 }
 
+
 &__item {
   display: flex;
   gap: 31px;
@@ -20,8 +21,9 @@
   transition-delay: 0;
 
 
-&:hover .contact-info__icon 
+&:hover .contact-info__icon {
   fill: var(--color-primary);
+}
 }
 
 
@@ -43,6 +45,7 @@
   color: var(--color-dark);
 
 
-&:hover .contact-info__text 
+&:hover .contact-info__text {
   color: var(--color-primary);
+}
 }

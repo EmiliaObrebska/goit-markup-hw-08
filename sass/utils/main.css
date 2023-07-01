@@ -443,6 +443,7 @@ body {
 }
 
 .clients__container {
+  padding: 1;
 }
 
 .clients__title {
