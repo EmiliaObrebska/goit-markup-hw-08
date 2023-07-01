@@ -1,5 +1,7 @@
-.projects__container {
-  width: 1200px;
+.projects {
+  &__container {
+    width: 1200px;
+  }
 
   &__list {
     list-style: none;
