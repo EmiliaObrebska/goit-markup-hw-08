@@ -1,0 +1,40 @@
+.portfolio {
+}
+
+.portfolio__container-filters {
+  margin-top: 94px;
+  margin-bottom: 34px;
+}
+
+.portfolio__filters-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.portfolio__filters-button {
+  width: 121px;
+  height: 38px;
+  left: 532px;
+  top: 180px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--color-dark);
+  background-color: var(--color-secondary-background);
+  border: var(--color-lorem);
+}
+
+.portfolio__filters-button:hover {
+  background-color: #2196f3;
+  color: rgb(236, 238, 240);
+  border-radius: 2px;
+  cursor: pointer;
+}
