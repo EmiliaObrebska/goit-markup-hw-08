@@ -700,7 +700,7 @@ label {
   margin-top: 94px;
   margin-bottom: 34px;
 }
-.portfolio__container-filters__filters-list {
+.portfolio__filters-list {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -710,7 +710,7 @@ label {
           justify-content: center;
   gap: 8px;
 }
-.portfolio__container-filters__filters-button {
+.portfolio__filters-button {
   width: 121px;
   height: 38px;
   left: 532px;
@@ -725,7 +725,7 @@ label {
   background-color: #f5f4fa;
   border: #f5f4fa;
 }
-.portfolio__container-filters__filters-button:hover {
+.portfolio__filters-button:hover {
   background-color: #2196f3;
   color: rgb(236, 238, 240);
   border-radius: 2px;
