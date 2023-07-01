@@ -128,12 +128,12 @@ input {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   input:focus {
-    border: 1px solid var(--color-primary);
+    border: 1px solid $color-primary;
     outline: none;
   }
 }
 input:focus + .input__icon {
-  fill: var(--color-primary);
+  fill: $color-primary;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -177,8 +177,8 @@ label {
   height: 30px;
   top: 15px;
   left: 480px;
-  background-color: var(--color-white);
-  fill: var(--color-white);
+  background-color: $color-white;
+  fill: $color-white;
   border: none;
   cursor: pointer;
 }

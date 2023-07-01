@@ -523,12 +523,12 @@ input {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 input input:focus {
-  border: 1px solid var(--color-primary);
+  border: 1px solid #2196f3;
   outline: none;
 }
 
 input:focus + .input__icon {
-  fill: var(--color-primary);
+  fill: #2196f3;
   -webkit-transition-property: fill;
   transition-property: fill;
   -webkit-transition-duration: 250ms;
@@ -573,8 +573,8 @@ label {
   height: 30px;
   top: 15px;
   left: 480px;
-  background-color: var(--color-white);
-  fill: var(--color-white);
+  background-color: #ffffff;
+  fill: #ffffff;
   border: none;
   cursor: pointer;
 }
