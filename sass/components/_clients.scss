@@ -1,66 +1,64 @@
 .clients {
   padding: 1;
-
-  &__container {
-    padding: 1;
   }
-}
 
-&__title {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
 
-  color: var(--color-dark);
+    color: var(--color-dark);
 
-  padding-top: 78px;
-  padding-bottom: 50px;
-}
-
-&__list {
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-}
-
-&__logo {
-  fill: var(--color-icon);
-  transition-property: transform;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
-
-  &:hover {
-    cursor: pointer;
+    padding-top: 78px;
+    padding-bottom: 50px;
   }
-}
 
-&__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-&__box {
-  width: 170px;
-  height: 92px;
-  left: 215px;
-  top: 2493px;
-
-  box-sizing: border-box;
-  border-radius: 4px;
-  border: 1px solid rgba(175, 177, 184, 1);
-  margin-bottom: 83px;
-
-  &:hover {
-    border: 1px solid #2196f3;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
   }
-}
 
-&:hover .clients__logo {
-  fill: #2196f3;
-}
+  &__logo {
+    fill: var(--color-icon);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  &__box {
+    width: 170px;
+    height: 92px;
+    left: 215px;
+    top: 2493px;
+
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid rgba(175, 177, 184, 1);
+    margin-bottom: 83px;
+
+    &:hover {
+      border: 1px solid #2196f3;
+    }
+  }
+
+  &:hover .clients__logo {
+    fill: #2196f3;
+  }
+
+
