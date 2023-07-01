@@ -29,18 +29,6 @@ body {
   padding: 0 15px;
 }
 
-label {
-  display: block;
-  margin-top: 10px;
-  margin-left: 40px;
-  padding-right: 15px;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.2;
-  letter-spacing: 0.01em;
-  color: #757575;
-}
-
 .advantages {
   padding: 94px 0 47px 0;
 }
@@ -429,37 +417,11 @@ label {
   left: 14px;
   fill: #212121;
 }
-.input input {
-  width: 448px;
-  height: 40px;
-  display: block;
-  margin-top: 4px;
-  padding-left: 42px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.input input input:focus {
-  border: 1px solid #2196f3;
-  outline: none;
-}
-.input input input:focus input:focus + .input__icon {
-  fill: #2196f3;
-  -webkit-transition-property: fill;
-  transition-property: fill;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.input input input:focus__placeholder {
+.input__placeholder {
   padding-top: 12px;
   padding-left: 16px;
 }
-.input input input:focus__check-square {
+.input__check-square {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -476,11 +438,11 @@ label {
   top: 20px;
   bottom: 30px;
 }
-.input input input:focus__check-square__checkbox-square-hidden {
+.input__checkbox-square-hidden {
   visibility: hidden;
   position: absolute;
 }
-.input input input:focus__checkbox-icon {
+.input__checkbox-icon {
   position: absolute;
   margin-top: 4px;
   margin-left: 0.5px;
@@ -495,22 +457,22 @@ label {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input input input:focus__checkbox-icon__checkbox-icon-empty {
+.input__checkbox-icon__checkbox-icon-empty {
   position: relative;
 }
-.input input input:focus .input__checkbox-square-hidden:checked ~ .input__checkbox-icon {
+.input .input__checkbox-square-hidden:checked ~ .input__checkbox-icon {
   visibility: visible;
   background-color: #2196f3;
 }
-.input input input:focus__statement {
+.input__statement {
   margin-left: 15px;
   margin-bottom: 3px;
 }
-.input input input:focus__statement-style {
+.input__statement-style {
   color: #2196f3;
   text-decoration: underline;
 }
-.input input input:focus__button-send {
+.input__button-send {
   width: 200px;
   height: 50px;
   background-color: #2196f3;
@@ -526,7 +488,7 @@ label {
   cursor: pointer;
   margin: 0 auto;
 }
-.input input input:focus__button-style {
+.input__button-style {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -545,6 +507,76 @@ label {
   margin-bottom: 46px;
   padding-left: 75px;
   padding-top: 10px;
+}
+
+input {
+  width: 448px;
+  height: 40px;
+  display: block;
+  margin-top: 4px;
+  padding-left: 42px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+input input:focus {
+  border: 1px solid var(--color-primary);
+  outline: none;
+}
+
+input:focus + .input__icon {
+  fill: var(--color-primary);
+  -webkit-transition-property: fill;
+  transition-property: fill;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+textarea {
+  margin-top: 4px;
+  display: block;
+  resize: none;
+  width: 448px;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+textarea textarea:focus {
+  border: 1px solid #2196f3;
+  outline: none;
+}
+textarea textarea:hover {
+  border: 1px solid #2196f3;
+  outline: none;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-left: 40px;
+  padding-right: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+.modal-close {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  top: 15px;
+  left: 480px;
+  background-color: var(--color-white);
+  fill: var(--color-white);
+  border: none;
+  cursor: pointer;
 }
 
 .logo {
