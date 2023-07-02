@@ -30,6 +30,7 @@
 
   &__pic {
     margin-bottom: 55px;
+    justify-self: center;
 
     @include tablet {
       border-radius: 4px;
