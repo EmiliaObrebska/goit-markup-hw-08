@@ -3,9 +3,46 @@
 
   &__list {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     gap: 30px;
+    justify-content: center;
     list-style: none;
+    padding: 0;
+    width: 100%;
+
+    @include tablet {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 354px;
+    }
+
+    @include desktop {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 270px;
+    }
+    &__pic-wrap {
+      background-color: $color-lorem;
+    }
+  }
+
+  &__pic {
+    margin-bottom: 55px;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 25px;
+
+    @include tablet {
+      margin-left: 142px;
+      margin-right: 142px;
+    }
+
+    @include desktop {
+      margin-left: 100px;
+      margin-right: 100px;
+    }
   }
 
   &__list-item {
@@ -16,33 +53,18 @@
     width: 100%;
   }
 
-  &__pic-wrap {
-    display: flex;
-    justify-content: center;
-    background-color: $color-lorem;
-    border-radius: 4px;
-    padding: 25px 0 25px 0;
-    margin-bottom: 30px;
-  }
-
   &__title {
-    font-style: normal;
+    color: $textColor;
+    font-size: small;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 1.15;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: $color-dark;
-    margin-bottom: 10px;
+    line-height: 16px;
+    padding-bottom: 10px;
   }
 
   &__text {
-    font-style: normal;
+    color: $color-icon;
+    font-size: small;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-
-    letter-spacing: 0.03em;
-    color: $color-text;
+    line-height: 24px;
   }
 }

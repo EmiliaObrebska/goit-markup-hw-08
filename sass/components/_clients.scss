@@ -1,6 +1,18 @@
 .clients {
   padding: 1;
 
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+
+    @include desktop {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
   &__title {
     font-style: normal;
     font-weight: 700;
@@ -8,17 +20,9 @@
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-
     color: $color-dark;
-
     padding-top: 78px;
     padding-bottom: 50px;
-  }
-
-  &__list {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
   }
 
   &__logo {
@@ -36,20 +40,23 @@
   &__link {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
 
   &__box {
-    width: 170px;
+    width: 210px;
     height: 92px;
-    left: 215px;
-    top: 2493px;
-
-    box-sizing: border-box;
-    border-radius: 4px;
     border: 1px solid rgba(175, 177, 184, 1);
-    margin-bottom: 83px;
+    border-radius: 4px;
+
+    @include tablet {
+      width: 226px;
+    }
+
+    @include desktop {
+      width: 170px;
+    }
 
     &:hover {
       border: 1px solid $color-primary;
@@ -57,6 +64,8 @@
 
     &:hover .clients__logo {
       fill: $color-primary;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
 }

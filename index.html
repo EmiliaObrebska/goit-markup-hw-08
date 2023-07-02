@@ -220,13 +220,30 @@
 
           <ul class="team__list">
             <li class="team__box-team">
-              <figure>
-                <img
-                  src="./image/img1.4.jpg"
-                  width="270px"
-                  height="260px"
-                  alt="photo of a man with glasses"
-                />
+              <figure class="team__image">
+                <picture>
+                  <img
+                    src="./image/team1mob@1x.jpg"
+                    alt="photo of a man with glasses" />
+                  <source
+                    srcset="
+                      ./image/team1mob@1x.jpg 1x,
+                      ./image/team1mob@2x.jpg 2x
+                    "
+                    media="(min-width:480px)" />
+                  <source
+                    srcset="
+                      ./image/team1tab@1x.jpg 1x,
+                      ./image/team1tab@2x.jpg 2x
+                    "
+                    media="(min-width:768px)" />
+                  <source
+                    srcset="
+                      ./image/team1des@1x.jpg 1x,
+                      ./image/team1des@2x.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                /></picture>
 
                 <figcaption class="team__name">
                   John Doe
@@ -268,14 +285,32 @@
                 </li>
               </ul>
             </li>
+
             <li class="team__box-team">
-              <figure>
-                <img
-                  src="./image/img1.5.jpg"
-                  width="270px"
-                  height="260px"
-                  alt="photo of a woman with glasses"
-                />
+              <figure class="team__image">
+                <picture
+                  ><img
+                    src="./image/team2mob@1x.jpg"
+                    alt="photo of a woman with glasses" />
+                  <source
+                    srcset="
+                      ./image/team2mob@1x.jpg 1x,
+                      ./image/team2mob@2x.jpg 2x
+                    "
+                    media="(min-width:480px)" />
+                  <source
+                    srcset="
+                      ./image/team2tab@1x.jpg 1x,
+                      ./image/team2tab@2x.jpg 2x
+                    "
+                    media="(min-width:768px)" />
+                  <source
+                    srcset="
+                      ./image/team2des@1x.jpg 1x,
+                      ./image/team2des@2x.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                /></picture>
                 <figcaption class="team__name">
                   John Doe
                   <p class="team__profession">Frontend Developer</p>
@@ -318,13 +353,29 @@
             </li>
 
             <li class="team__box-team">
-              <figure>
-                <img
-                  src="./image/img1.6.jpg"
-                  width="270px"
-                  height="260px"
-                  alt="smiling man"
-                />
+              <figure class="team__image">
+                <picture
+                  ><img src="./image/team3mob@1x.jpg" alt="smiling man" />
+                  <source
+                    srcset="
+                      ./image/team3mob@1x.jpg 1x,
+                      ./image/team3mob@2x.jpg 2x
+                    "
+                    media="(min-width:480px)" />
+                  <source
+                    srcset="
+                      ./image/team3tab@1x.jpg 1x,
+                      ./image/team3tab@2x.jpg 2x
+                    "
+                    media="(min-width:768px)" />
+                  <source
+                    srcset="
+                      ./image/team3des@1x.jpg 1x,
+                      ./image/team3des@2x.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                /></picture>
+
                 <figcaption class="team__name">
                   John Doe
                   <p class="team__profession">Marketing</p>
@@ -367,13 +418,30 @@
             </li>
 
             <li class="team__box-team">
-              <figure>
-                <img
-                  src="./image/img1.7.jpg"
-                  width="270px"
-                  height="260px"
-                  alt="photo of a smiling with glasses"
-                />
+              <figure class="team__image">
+                <picture
+                  ><img
+                    src="./image/team4mob@1x.jpg"
+                    alt="photo of a smiling with glasses" />
+                  <source
+                    srcset="
+                      ./image/team4mob@1x.jpg  1x,
+                      ./image/team24mob@2x.jpg 2x
+                    "
+                    media="(min-width:480px)" />
+                  <source
+                    srcset="
+                      ./image/team4tab@1x.jpg 1x,
+                      ./image/team4tab@2x.jpg 2x
+                    "
+                    media="(min-width:768px)" />
+                  <source
+                    srcset="
+                      ./image/team4des@1x.jpg 1x,
+                      ./image/team4des@2x.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                /></picture>
                 <figcaption class="team__name">
                   John Doe
                   <p class="team__profession">UI Designer</p>
@@ -635,6 +703,14 @@
         </form>
       </div>
     </div>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>

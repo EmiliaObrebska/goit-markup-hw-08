@@ -127,12 +127,16 @@ input {
   border-radius: 4px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  input:focus {
+  
+  input:focus-within,
+  input:hover {
     border: 1px solid $color-primary;
     outline: none;
   }
 }
-input:focus + .input__icon {
+
+input:hover + .input__icon,
+input:focus-within + .input__icon {
   fill: $color-primary;
   transition-property: fill;
   transition-duration: 250ms;
