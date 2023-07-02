@@ -7,33 +7,42 @@
     padding-left: 70px;
   }
 
-  &__join-us {
-    margin-bottom: 100px;
-  }
-  &__join-us_title {
-    color: $color-white;
-    padding-left: 70px;
-    padding-bottom: 20px;
+  @include tablet {
+    margin-bottom: 65px;
+    margin-left: 144px;
+    justify-content: center;
   }
 
-  &__social-media-item {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: $color-text;
-    padding-top: 12px;
-    padding-left: 12px;
-
-    &:hover {
-      background-color: $color-primary;
-      cursor: pointer;
-    }
+  @include desktop {
+    margin-left: 0px;
   }
+}
 
-  &__social-media-icon {
-    fill: $color-white;
-    width: 20px;
-    height: 20px;
-    align-items: center;
+&__title {
+  color: $color-white;
+  padding-left: 70px;
+  padding-bottom: 20px;
+}
+
+&__social-media-item {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: $color-text;
+  padding-top: 12px;
+  padding-left: 12px;
+  border-radius: 50%;
+  background-color: $color-icon;
+
+  &:hover {
+    background-color: $color-primary;
+    cursor: pointer;
   }
+}
+
+&__social-media-icon {
+  fill: $color-white;
+  width: 20px;
+  height: 20px;
+  align-items: center;
 }
