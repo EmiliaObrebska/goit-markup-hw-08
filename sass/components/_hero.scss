@@ -18,14 +18,9 @@
     padding-bottom: 280px;
   }
 
-  @include mobile {
-    height: 400px;
-  }
-
   @include tablet {
     height: 400px;
   }
-
 
   &__text {
     font-size: 26px;
