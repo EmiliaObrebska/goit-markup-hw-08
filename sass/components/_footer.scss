@@ -2,16 +2,22 @@
   background: $color-dark-backgorund;
 
   &__container {
-    width: 1600px;
-    height: 252px;
+    text-align: center;
+  }
+
+  @include mobile {
+    height: 603px;
   }
 
   @include tablet {
-    height: 463px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   @include desktop {
-    height: 252px;
+    display: flex;
+    align-items: baseline;
+    padding: 0;
   }
 
   &__left-side {

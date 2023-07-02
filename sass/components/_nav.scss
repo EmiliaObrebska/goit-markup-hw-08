@@ -1,5 +1,5 @@
 .nav {
-  display: none;
+  display: flex;
   align-items: center;
 
   @include tablet {
@@ -15,6 +15,10 @@
     display: flex;
     justify-content: space-between;
     gap: 46px;
+
+    @include tablet {
+      margin-right: 60px;
+    }
   }
 
   .nav__link {
