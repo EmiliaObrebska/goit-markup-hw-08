@@ -80,14 +80,19 @@ body {
 }
 @media screen and (min-width: 768px) {
   .advantages__pic {
-    margin-left: 142px;
-    margin-right: 142px;
+    border-radius: 4px;
+    background-color: rgb(245, 244, 250);
+    width: 354px;
+    height: 120px;
+    flex-shrink: 0;
   }
 }
 @media screen and (min-width: 1200px) {
   .advantages__pic {
-    margin-left: 100px;
-    margin-right: 100px;
+    background-color: rgb(245, 244, 250);
+    width: 270px;
+    height: 120px;
+    flex-shrink: 0;
   }
 }
 .advantages__list-item {
@@ -97,14 +102,20 @@ body {
   width: 100%;
 }
 .advantages__title {
-  color: #f5f4fa;
+  color: #000;
   font-size: small;
   font-weight: 700;
   line-height: 16px;
   padding-bottom: 10px;
 }
+@media screen and (min-width: 768px) {
+  .advantages {
+    color: #000;
+    font-size: 14px;
+  }
+}
 .advantages__text {
-  color: #afb1b8;
+  color: #757575;
   font-size: small;
   font-weight: 400;
   line-height: 24px;
@@ -632,7 +643,7 @@ label {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .modal {
     width: 528px;
     height: 581px;

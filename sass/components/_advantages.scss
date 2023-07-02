@@ -35,13 +35,18 @@
     margin-top: 25px;
 
     @include tablet {
-      margin-left: 142px;
-      margin-right: 142px;
+      border-radius: 4px;
+      background-color: rgba(245, 244, 250, 1);
+      width: 354px;
+      height: 120px;
+      flex-shrink: 0;
     }
 
     @include desktop {
-      margin-left: 100px;
-      margin-right: 100px;
+      background-color: rgba(245, 244, 250, 1);
+      width: 270px;
+      height: 120px;
+      flex-shrink: 0;
     }
   }
 
@@ -54,15 +59,20 @@
   }
 
   &__title {
-    color: $color-lorem;
+    color: $color-black;
     font-size: small;
     font-weight: 700;
     line-height: 16px;
     padding-bottom: 10px;
   }
 
+  @include tablet {
+    color: $color-black;
+    font-size: 14px;
+  }
+
   &__text {
-    color: $color-icon;
+    color: $color-text;
     font-size: small;
     font-weight: 400;
     line-height: 24px;
