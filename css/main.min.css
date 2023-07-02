@@ -522,12 +522,14 @@ input {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-input input:focus {
+input input:focus-within,
+input input:hover {
   border: 1px solid #2196f3;
   outline: none;
 }
 
-input:focus + .input__icon {
+input:hover + .input__icon,
+input:focus-within + .input__icon {
   fill: #2196f3;
   -webkit-transition-property: fill;
   transition-property: fill;
