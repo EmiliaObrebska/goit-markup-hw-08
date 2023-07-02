@@ -1,22 +1,25 @@
 .contact-info {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 31px;
+  display: none;
+  gap: 30px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+
+  @include tablet {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 101px;
+  }
 
   &__item {
     display: flex;
-    gap: 31px;
   }
 
   &__link {
-    text-decoration: none;
-    display: flex;
-    gap: 10px;
-    transition-property: transform;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
+    font-size: small;
+    font-weight: 500;
+    line-height: 16px;
+    color: $color-icon;
 
     &:hover .contact-info__icon {
       fill: $color-primary;
@@ -24,11 +27,8 @@
   }
 
   &__icon {
+    margin-right: 10px;
     fill: $color-icon;
-    transition-property: transform;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
   }
 
   &__text {
@@ -39,7 +39,7 @@
     letter-spacing: 0.02em;
     color: $color-dark;
 
-    &:hover .contact-info__text {
+    &:hover .contact-info__text .contact-info__icon {
       color: $color-primary;
     }
   }
