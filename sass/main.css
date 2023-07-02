@@ -70,13 +70,10 @@ body {
   }
 }
 .advantages__list__pic-wrap {
-  background-color: #f5f4fa;
+  background-color: #000;
 }
 .advantages__pic {
   margin-bottom: 55px;
-  margin-left: 190px;
-  margin-right: 190px;
-  margin-top: 25px;
 }
 @media screen and (min-width: 768px) {
   .advantages__pic {
@@ -910,7 +907,7 @@ label {
 .team {
   padding: 94px 0 47px 0;
   background-color: #f5f4fa;
-  margin-top: 94px;
+  margin: auto;
 }
 .team__container {
   width: 1200px;
@@ -918,21 +915,52 @@ label {
   top: 1449px;
   background: #f5f4fa;
 }
+@media screen and (min-width: 768px) {
+  .team {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team {
+    max-width: 1600px;
+  }
+}
 .team__title {
-  font-style: normal;
-  font-weight: 700;
+  color: #000;
   font-size: 36px;
   line-height: 1.2;
+  font-weight: 700;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 1200px) {
+  .team__title {
+    padding-top: 34px;
+  }
 }
 .team__list {
-  width: 1200px;
+  gap: 30px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0 auto;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 768px) {
+  .team__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 94px;
+  }
 }
 .team__box-team {
   background: #ffffff;

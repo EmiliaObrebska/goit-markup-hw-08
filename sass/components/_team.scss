@@ -1,7 +1,7 @@
 .team {
   padding: 94px 0 47px 0;
   background-color: $color-secondary-background;
-  margin-top: 94px;
+  margin: auto;
 
   &__container {
     width: 1200px;
@@ -11,23 +11,49 @@
     background: $color-secondary-background;
   }
 
+  @include tablet {
+    max-width: 768px;
+  }
+
+  @include desktop {
+    max-width: 1600px;
+  }
+
   &__title {
-    font-style: normal;
-    font-weight: 700;
+    color: $color-black;
     font-size: 36px;
     line-height: 1.2;
+    font-weight: 700;
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: $color-dark;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
+
+    @include desktop {
+      padding-top: 34px;
+    }
   }
 
   &__list {
-    width: 1200px;
+    gap: 30px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0 auto;
+    padding-bottom: 60px;
+
+    @include tablet {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    @include desktop {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-bottom: 94px;
+    }
   }
 
   &__box-team {

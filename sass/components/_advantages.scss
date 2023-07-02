@@ -24,15 +24,12 @@
       width: 270px;
     }
     &__pic-wrap {
-      background-color: $color-lorem;
+      background-color: $color-black;
     }
   }
 
   &__pic {
     margin-bottom: 55px;
-    margin-left: 190px;
-    margin-right: 190px;
-    margin-top: 25px;
 
     @include tablet {
       border-radius: 4px;
