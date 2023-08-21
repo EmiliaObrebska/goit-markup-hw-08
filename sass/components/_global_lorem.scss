@@ -1,0 +1,23 @@
+html {
+    font-size: 10px;
+}
+body {
+    font-family: Roboto, sans-serif;
+    background: var(--background);
+    color: var(--color-text);
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.reset-margin {
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+    margin: 0 auto;
+}

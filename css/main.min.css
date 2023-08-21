@@ -42,6 +42,15 @@ body {
   }
 }
 
+.reset-margin {
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0 auto;
+}
+
 .advantages {
   padding: 94px 0 47px 0;
 }
@@ -49,46 +58,16 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 30px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  list-style: none;
-  padding: 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: left;
+  padding-bottom: 94px;
+  padding-left: 0;
   width: 100%;
-}
-@media screen and (min-width: 768px) {
-  .advantages__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    width: 354px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .advantages__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 270px;
-  }
+  gap: 30px;
 }
 .advantages__card-set {
   display: -webkit-box;
@@ -155,9 +134,23 @@ body {
 }
 .advantages__text {
   color: #757575;
-  font-size: small;
-  font-weight: 400;
-  line-height: 24px;
+  font-size: 1.4rem;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  margin-top: 10px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .advantages .advantages__item {
+    -ms-flex-preferred-size: calc((100% - 30px) / 2);
+        flex-basis: calc((100% - 30px) / 2);
+  }
+}
+@media (min-width: 1024px) {
+  .advantages .advantages__item {
+    -ms-flex-preferred-size: calc((100% - 90px) / 4);
+        flex-basis: calc((100% - 90px) / 4);
+  }
 }
 
 .backdrop {
